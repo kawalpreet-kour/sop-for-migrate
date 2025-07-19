@@ -51,20 +51,42 @@ This SOP covers **only the installation** of the `migrate` tool.
 
 ## Procedure
 
-### 🔹 Step 1: Update System Packages
+### Step 1: Update System Packages
 
 ```bash
 sudo apt-get update 
 ```
-
+<img width="1304" height="495" alt="Screenshot from 2025-07-20 00-11-17" src="https://github.com/user-attachments/assets/6f0cf1a2-afae-41d0-bc46-76ae9b55cc62" />
 
 This ensures your system is using the latest package lists.
 
+## Step 2: Let us setup the repository to install the migrate package.
+```bash
+ curl -s https://packagecloud.io/install/repositories/golang-migrate/migrate/script.deb.sh | sudo bash 
+```
 
 
+### Step 3: Update System Packages Again
 
+```bash
+sudo apt-get update 
+```
+<img width="1304" height="495" alt="Screenshot from 2025-07-20 00-11-17" src="https://github.com/user-attachments/assets/6f0cf1a2-afae-41d0-bc46-76ae9b55cc62" />
 
+### Step 4: install migrate
 
+```bash
+sudo apt-get install migrate
+```
+<img width="1080" height="393" alt="Screenshot from 2025-07-20 00-13-11" src="https://github.com/user-attachments/assets/97037ba7-9e0f-458a-b7cf-935bc7fbfd2d" />
+
+### Step 5: Verify Installation
+``bash
+migrate -version
+```
+Confirm that migrate was installed correctly
+
+<img width="672" height="86" alt="Screenshot from 2025-07-20 00-13-44" src="https://github.com/user-attachments/assets/66c4d7b0-81d1-4249-9810-132fc2d357b9" />
 
 
 
