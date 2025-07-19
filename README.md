@@ -81,20 +81,13 @@ sudo apt-get install migrate
 <img width="1080" height="393" alt="Screenshot from 2025-07-20 00-13-11" src="https://github.com/user-attachments/assets/97037ba7-9e0f-458a-b7cf-935bc7fbfd2d" />
 
 ### Step 5: Verify Installation
-``bash
+
+```bash
 migrate -version
 ```
-Confirm that migrate was installed correctly
-
 <img width="672" height="86" alt="Screenshot from 2025-07-20 00-13-44" src="https://github.com/user-attachments/assets/66c4d7b0-81d1-4249-9810-132fc2d357b9" />
-
-
-
-
-
-
-
-
+ 
+-This Confirms that migrate was installed correctly.
 
 ---
 
