@@ -1,4 +1,4 @@
-# SOP: Step-by-Step Installation Guide for Golang Migrate CLI
+# SOP: Step-by-Step Installation Guide for Migrate
 
 A comprehensive, step-by-step guide for installing the `migrate` command-line tool on Debian/Ubuntu-based Linux systems.
 
