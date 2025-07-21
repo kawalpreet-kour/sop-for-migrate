@@ -30,13 +30,13 @@ A comprehensive, step-by-step guide for installing the `migrate` command-line to
 
 ## Introduction
 
-[Golang Migrate](https://github.com/golang-migrate/migrate) is a powerful command-line tool used to manage and apply database migrations. It supports multiple databases including PostgreSQL, MySQL, SQLite, and others. This SOP guides you through a reliable process for installing the `migrate` CLI on Ubuntu/Debian-based systems.
+Golang Migrate is a powerful command-line tool used to manage and apply database migrations. It supports multiple databases including PostgreSQL, MySQL, SQLite, and others. This SOP guides you through a reliable process for installing the `migrate`on Ubuntu/Debian-based systems.
 
 ---
 
 ## Scope
 
-This SOP covers **only the installation** of the `migrate` CLI tool on Debian/Ubuntu systems.
+This SOP covers only the installation of the `migrate`tool on Debian/Ubuntu systems.
 
 ---
 
