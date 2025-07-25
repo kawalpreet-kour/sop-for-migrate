@@ -1,57 +1,62 @@
-# SOP: Step-by-Step Installation Guide for Migrate
+# SOP: Installation Guide for Migrate
 
-A comprehensive, step-by-step guide for installing the `migrate` command-line tool on Debian/Ubuntu-based Linux systems.
+This SOP covers only the installation of the `migrate`tool on Debian/Ubuntu systems.
 
----
-
-| Authors           | Created on    | Version | Last updated by | Last edited on |
-|-------------------|--------------|---------|-----------------|---------------|
-| Kawalpreet Kour   | 19 July 2025 | v1      | -               | -             |
 
 ---
-
-## Table of Contents
-
-1. [Introduction](#introduction)  
-2. [Scope](#scope)  
-3. [Prerequisites](#prerequisites)  
-4. [Procedure](#procedure)  
-    - [Step 1: Update System Packages](#step-1-update-system-packages)  
-    - [Step 2: Add the Golang Migrate Repository](#step-2-add-the-golang-migrate-repository)  
-    - [Step 3: Update System Packages Again](#step-3-update-system-packages-again)  
-    - [Step 4: Install migrate CLI](#step-4-install-migrate-cli)  
-    - [Step 5: Verify the Installation](#step-5-verify-the-installation)  
-5. [Notes](#notes)  
-6. [Conclusion](#conclusion)  
-7. [Contact](#contact-information)  
-8. [References](#references)  
+## Author Information
+| Last Updated On | Version | Author           | Level           | Reviewer               |
+|-----------------|---------|------------------|-----------------|------------------------|
+| 18-07-2025      | V1.0    | Kawalpreet Kour  | Internal Review | Pritam                 |
+| 25-07-2025      | V1.1    | Kawalpreet Kour  | L0              | Shreya/Sharvani        |
+|                 |         | Kawalpreet Kour  | L1              | Abhishek V             |
+|                 |         | Kawalpreet Kour  | L2              | Abhishek Dubey/Rishabh sharma |
 
 ---
 
 ## Introduction
 
-Golang Migrate is a powerful command-line tool used to manage and apply database migrations. It supports multiple databases including PostgreSQL, MySQL, SQLite, and others. This SOP guides you through a reliable process for installing the `migrate`on Ubuntu/Debian-based systems.
+Golang Migrate is a powerful command-line tool used to manage and apply database migrations. It supports multiple databases including PostgreSQL, MySQL, SQLite, and others.
 
 ---
 
-## Scope
+## Table of Contents
 
-This SOP covers only the installation of the `migrate`tool on Debian/Ubuntu systems.
+- [Purpose](#purpose)  
+- [Pre-requisites](#pre-requisites)  
+- [Procedure](#procedure)  
+  - [Update System Packages](#update-system-packages)  
+  - [Add the Golang Migrate Repository](#add-the-golang-migrate-repository)  
+  - [Update System Packages Again](#update-system-packages-again)  
+  - [Install migrate CLI](#install-migrate-cli)  
+  - [Verify the Installation](#verify-the-installation)  
+- [Notes](#notes)  
+- [Conclusion](#conclusion)  
+- [Contact Information](#contact-information)  
+- [References](#references)
+---
+
+
+
+## Purpose
+
+A comprehensive, step-by-step guide for installing the `migrate` command-line tool on Debian/Ubuntu-based Linux systems.
 
 ---
 
-## Prerequisites
+## Pre-requisites
 
-- Ubuntu 20.04+ or Debian-based system  
-- Terminal access with `sudo` privileges  
-- Internet connection  
-- Basic familiarity with Linux command line
+| Component             | Description                                                     |
+|-----------------------|-----------------------------------------------------------------|
+| Linux System          | Ubuntu 20.04+ or any Debian-based system is required            |
+| Sudo Privileges       | You must have terminal access with `sudo` permissions           |
+| Command-line Basics   | Basic familiarity with Linux commands and terminal navigation   |
 
 ---
 
 ## Procedure
 
-### Step 1: Update System Packages
+### Update System Packages
 
 Open your terminal and run the following command to refresh your package lists:
 
@@ -62,7 +67,7 @@ sudo apt-get update
 
 ---
 
-### Step 2: Add the Golang Migrate Repository
+### Add the Golang Migrate Repository
 
 Set up the official repository for Golang Migrate:
 
@@ -72,7 +77,7 @@ curl -s https://packagecloud.io/install/repositories/golang-migrate/migrate/scri
 
 ---
 
-### Step 3: Update System Packages Again
+### Update System Packages Again
 
 After adding the repository, update the package list again:
 
@@ -83,7 +88,7 @@ sudo apt-get update
 
 ---
 
-### Step 4: Install migrate CLI
+### Install migrate CLI
 
 Install the `migrate` command-line tool:
 
@@ -94,7 +99,7 @@ sudo apt-get install migrate
 
 ---
 
-### Step 5: Verify the Installation
+### Verify the Installation
 
 Check that `migrate` is installed and working:
 
@@ -109,8 +114,10 @@ If the version number is displayed, the installation was successful.
 
 ## Notes
 
-- If you encounter issues, ensure your system time and date are correct and that you have a working internet connection.
-- The repository script automatically configures the correct source for your OS version.
+| Point No. | Description                                                                 |
+|-----------|-----------------------------------------------------------------------------|
+| 1         | If you encounter issues, ensure your system time and date are correct and that you have a working internet connection. |
+| 2         | The repository script automatically configures the correct source for your OS version. |
 
 ---
 
@@ -119,14 +126,6 @@ If the version number is displayed, the installation was successful.
 Following these steps, you should have successfully installed the `migrate` CLI on your Debian/Ubuntu system. You can now use it to manage your database migrations efficiently.
 
 ---
-
-## References
-
-- [Golang Migrate Documentation](https://github.com/golang-migrate/migrate)
-- [GeeksforGeeks: How to Install Golang Migrate on Ubuntu](https://www.geeksforgeeks.org/installation-guide/how-to-install-golang-migrate-on-ubuntu/)
-
----
-
 ## Contact Information
 
 | Name             | Email                                         |
@@ -134,4 +133,12 @@ Following these steps, you should have successfully installed the `migrate` CLI 
 | Kawalpreet Kour  | Kawalpreet.kour.snaatak@mygurukulam.co        |
 
 ---
+## References
+
+| Title                                               | Link                                                                                  |
+|-----------------------------------------------------|---------------------------------------------------------------------------------------|
+| Golang Migrate Documentation                        | [Visit GitHub](https://github.com/golang-migrate/migrate)                            |
+| GFG: Install Golang Migrate on Ubuntu               | [Read on GeeksforGeeks](https://www.geeksforgeeks.org/installation-guide/how-to-install-golang-migrate-on-ubuntu/) |
+
+
 
